@@ -15,6 +15,16 @@
 		F20C68F221215DED008A8323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F20C68F121215DED008A8323 /* main.m */; };
 		F20C68FC21215DED008A8323 /* ChartTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F20C68FB21215DED008A8323 /* ChartTestTests.m */; };
 		F20C690721215DED008A8323 /* ChartTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F20C690621215DED008A8323 /* ChartTestUITests.m */; };
+		F20C6A3E212175B2008A8323 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20C6A3D212175B1008A8323 /* Charts.framework */; };
+		F20C6A3F212175B8008A8323 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20C6A3D212175B1008A8323 /* Charts.framework */; };
+		F20C6A40212175B8008A8323 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F20C6A3D212175B1008A8323 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F20C6A432121767F008A8323 /* brid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20C6A422121767F008A8323 /* brid.swift */; };
+		F249654A212AAB9C0090C03C /* SHLineChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2496549212AAB9C0090C03C /* SHLineChartModel.m */; };
+		F249654D212BEF590090C03C /* SHLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F249654C212BEF590090C03C /* SHLineChartView.m */; };
+		F2AEFA0D21241D5800A4C68A /* ChartsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AEFA0C21241D5800A4C68A /* ChartsController.m */; };
+		F2AEFA1021241D6B00A4C68A /* FSLineChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AEFA0F21241D6B00A4C68A /* FSLineChartController.m */; };
+		F2AEFA162124232D00A4C68A /* FSLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AEFA132124232D00A4C68A /* FSLineChart.m */; };
+		F2AEFA172124232D00A4C68A /* UIColor+FSPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AEFA152124232D00A4C68A /* UIColor+FSPalette.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F20C6A41212175B8008A8323 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F20C6A40212175B8008A8323 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		F20C68DF21215DE7008A8323 /* ChartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20C68E221215DE7008A8323 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +75,20 @@
 		F20C690221215DED008A8323 /* ChartTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20C690621215DED008A8323 /* ChartTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartTestUITests.m; sourceTree = "<group>"; };
 		F20C690821215DED008A8323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20C6A3D212175B1008A8323 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Charts.framework; sourceTree = "<group>"; };
+		F20C6A422121767F008A8323 /* brid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brid.swift; sourceTree = "<group>"; };
+		F2496548212AAB9C0090C03C /* SHLineChartModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLineChartModel.h; sourceTree = "<group>"; };
+		F2496549212AAB9C0090C03C /* SHLineChartModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLineChartModel.m; sourceTree = "<group>"; };
+		F249654B212BEF590090C03C /* SHLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLineChartView.h; sourceTree = "<group>"; };
+		F249654C212BEF590090C03C /* SHLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLineChartView.m; sourceTree = "<group>"; };
+		F2AEFA0B21241D5800A4C68A /* ChartsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartsController.h; sourceTree = "<group>"; };
+		F2AEFA0C21241D5800A4C68A /* ChartsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartsController.m; sourceTree = "<group>"; };
+		F2AEFA0E21241D6B00A4C68A /* FSLineChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLineChartController.h; sourceTree = "<group>"; };
+		F2AEFA0F21241D6B00A4C68A /* FSLineChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLineChartController.m; sourceTree = "<group>"; };
+		F2AEFA122124232D00A4C68A /* FSLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLineChart.h; sourceTree = "<group>"; };
+		F2AEFA132124232D00A4C68A /* FSLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLineChart.m; sourceTree = "<group>"; };
+		F2AEFA142124232D00A4C68A /* UIColor+FSPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FSPalette.h"; sourceTree = "<group>"; };
+		F2AEFA152124232D00A4C68A /* UIColor+FSPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FSPalette.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20C6A3E212175B2008A8323 /* Charts.framework in Frameworks */,
+				F20C6A3F212175B8008A8323 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +141,16 @@
 		F20C68E121215DE7008A8323 /* ChartTest */ = {
 			isa = PBXGroup;
 			children = (
+				F20C6916212170E0008A8323 /* libs */,
 				F20C68E221215DE7008A8323 /* AppDelegate.h */,
 				F20C68E321215DE7008A8323 /* AppDelegate.m */,
 				F20C68E521215DE7008A8323 /* ViewController.h */,
 				F20C68E621215DE7008A8323 /* ViewController.m */,
+				F2AEFA0B21241D5800A4C68A /* ChartsController.h */,
+				F2AEFA0C21241D5800A4C68A /* ChartsController.m */,
+				F2AEFA0E21241D6B00A4C68A /* FSLineChartController.h */,
+				F2AEFA0F21241D6B00A4C68A /* FSLineChartController.m */,
+				F20C6A422121767F008A8323 /* brid.swift */,
 				F20C68E821215DE7008A8323 /* Main.storyboard */,
 				F20C68EB21215DED008A8323 /* Assets.xcassets */,
 				F20C68ED21215DED008A8323 /* LaunchScreen.storyboard */,
@@ -132,6 +178,38 @@
 			path = ChartTestUITests;
 			sourceTree = "<group>";
 		};
+		F20C6916212170E0008A8323 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				F2496547212AAB7A0090C03C /* SHLineChart */,
+				F2AEFA112124232D00A4C68A /* FSLineChart */,
+				F20C6A3D212175B1008A8323 /* Charts.framework */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		F2496547212AAB7A0090C03C /* SHLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				F2496548212AAB9C0090C03C /* SHLineChartModel.h */,
+				F2496549212AAB9C0090C03C /* SHLineChartModel.m */,
+				F249654B212BEF590090C03C /* SHLineChartView.h */,
+				F249654C212BEF590090C03C /* SHLineChartView.m */,
+			);
+			path = SHLineChart;
+			sourceTree = "<group>";
+		};
+		F2AEFA112124232D00A4C68A /* FSLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				F2AEFA122124232D00A4C68A /* FSLineChart.h */,
+				F2AEFA132124232D00A4C68A /* FSLineChart.m */,
+				F2AEFA142124232D00A4C68A /* UIColor+FSPalette.h */,
+				F2AEFA152124232D00A4C68A /* UIColor+FSPalette.m */,
+			);
+			path = FSLineChart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +220,7 @@
 				F20C68DB21215DE7008A8323 /* Sources */,
 				F20C68DC21215DE7008A8323 /* Frameworks */,
 				F20C68DD21215DE7008A8323 /* Resources */,
+				F20C6A41212175B8008A8323 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,8 +342,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F20C68E721215DE7008A8323 /* ViewController.m in Sources */,
+				F20C6A432121767F008A8323 /* brid.swift in Sources */,
+				F249654D212BEF590090C03C /* SHLineChartView.m in Sources */,
 				F20C68F221215DED008A8323 /* main.m in Sources */,
+				F2AEFA1021241D6B00A4C68A /* FSLineChartController.m in Sources */,
+				F2AEFA162124232D00A4C68A /* FSLineChart.m in Sources */,
+				F249654A212AAB9C0090C03C /* SHLineChartModel.m in Sources */,
 				F20C68E421215DE7008A8323 /* AppDelegate.m in Sources */,
+				F2AEFA172124232D00A4C68A /* UIColor+FSPalette.m in Sources */,
+				F2AEFA0D21241D5800A4C68A /* ChartsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +520,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChartTest/libs",
+				);
 				INFOPLIST_FILE = ChartTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,6 +531,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sensology.ChartTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -450,6 +541,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChartTest/libs",
+				);
 				INFOPLIST_FILE = ChartTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +552,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sensology.ChartTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -464,6 +560,7 @@
 		F20C690F21215DED008A8323 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChartTestTests/Info.plist;
@@ -482,6 +579,7 @@
 		F20C691021215DED008A8323 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChartTestTests/Info.plist;
@@ -500,6 +598,7 @@
 		F20C691221215DED008A8323 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChartTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -517,6 +616,7 @@
 		F20C691321215DED008A8323 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChartTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
